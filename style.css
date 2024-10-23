@@ -1,0 +1,73 @@
+html {
+    background-color:rgb(70, 70, 70);
+    font-family:Arial;
+}
+
+body {
+}
+
+#centeringDiv {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:90vh;
+}
+
+#gridContainer {
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
+    width:350px;
+    height:420px;
+    grid-gap:5px;
+    font-size:34pt;
+    color:white;
+}
+
+.word-square {
+    font-size:34pt;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    text-transform:capitalize;
+}
+
+#wordleKeyboard {
+    width:100%;
+
+}
+
+.row-1 {
+    margin-top:25px !important;
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:6.5px;
+    margin-top:10px;
+    
+}
+
+.letter {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background-color:white;
+    border-radius:5px;
+    height:60px;
+    width:42px;
+}
+
+.enter, .backspace {
+    width:60px !important;
+}
+
+.word-square {
+    display:block;
+    border:2px solid rgb(138, 138, 138);
+}
+
